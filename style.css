@@ -1,0 +1,82 @@
+.resume {
+    max-width: 900px;
+    margin: auto;
+    padding: 35px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0,0,0,08,);
+}
+.header {
+    display: grid;
+    grid-template-columns: 120px 1r 1fr;
+    gap: 20px;
+    align-items: center;
+}
+.header-photo img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4a6fa5;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        
+header img:hover {
+    transform: scale(1.05);
+}
+.header-left h1 {
+  margin: 0;
+  font-size: 28px;
+}
+.role {
+    margin:  0 ;
+    font-weight: bold;
+    color: #4a6fa5;
+}
+.header-right {
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+}
+.divider {
+    height: 3px;
+    background: linear-gradient(to right, #4a6fa5,#8fb3e8);
+    border-radius: 3px;
+    margin: 20px 0 25px;
+}
+.card {
+  background: #f9fbff;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+  border-left: 5px solid #4a6fa5;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tag {
+  background: #e3ecff;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.item-title {
+  font-weight: bold;
+  margin: 0;
+}
+.item-date {
+  font-size: 13px;
+  color: #666;
+  margin: 2px 0 8px;
+}
+ul {
+  margin: 8px 0 0 18px;
+  line-height: 1.5;
+
+}
